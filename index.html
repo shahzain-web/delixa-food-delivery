@@ -1,0 +1,2187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delixa</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="checkout.html" href="#">
+
+</head>
+
+<body>
+    <!--==================================
+        PREMIUM PRELOADER
+===================================-->
+
+    <div id="preloader">
+
+        <div class="loader-wrapper">
+
+            <div class="loader-circle"></div>
+
+            <div class="loader-circle loader2"></div>
+
+            <div class="loader-circle loader3"></div>
+
+            <div class="logo-loader">
+
+                <span>D</span>
+
+            </div>
+
+        </div>
+
+        <h2>Delixa</h2>
+
+        <p>Preparing Delicious Experience...</p>
+
+    </div>
+    <!-- navgation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Delixa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link mx-4  active" aria-current="page" href="#">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4" href="#restaurants">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4" href="#popularMenu">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4" href="#offers">
+                            Offers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4" href="#contact">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <div id="userArea">
+
+                            <button class="btn-login" data-bs-toggle="modal" data-bs-target="#authModal">
+
+                                <i class="fas fa-user"></i>
+
+                                Login
+
+                            </button>
+
+                        </div>
+
+                    </li>
+                    <button id="themeToggle" class="theme-btn">
+
+                        <i class="fas fa-moon"></i>
+
+                    </button>
+                    <li class="nav-item ms-3">
+
+                        <button class="cart-btn" id="cartBtn">
+
+                            <i class="fas fa-shopping-cart"></i>
+
+                            <span id="cartCount">0</span>
+
+                        </button>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <!-- Left Side -->
+
+                <div class="hero-text">
+
+                    <span class="tag">
+                        🍕 Welcome to Delixa
+                    </span>
+
+                    <h1>
+                        Delicious Food
+                        Delivered Fast
+                    </h1>
+
+                    <p>
+                        Fresh meals from your favourite restaurants delivered to your doorstep in minutes.
+                    </p>
+
+                    <div class="buttons">
+
+                        <button class="order-btn">
+                            Order Now
+                        </button>
+
+                        <button class="menu-btn">
+                            Explore Menu
+                        </button>
+
+                    </div>
+
+                    <div class="hero-bottom">
+
+                        ⭐ 4.9 Rating
+
+                        <span>🚚 30 Min Delivery</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+
+                <div class="hero-image">
+
+                    <img src="images/41f84a72-a474-4132-98b0-533460005dc7.png" id="foodImage">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--=====================================
+        PREMIUM RESTAURANTS
+======================================-->
+
+    <section id="restaurants" class=" restaurants py-5">
+
+        <div class="container">
+
+            <div class="restaurant-heading">
+
+                <span>🍽 Top Restaurants</span>
+
+                <h2>Explore Popular Restaurants</h2>
+
+                <p>
+                    Order delicious food from the highest-rated restaurants near you.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Restaurant 1 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="restaurant-card">
+
+                        <div class="restaurant-img">
+
+                            <img src="https://i.pinimg.com/736x/5a/b6/ca/5ab6caa7bb9c8994e68d0acb9f7cabcb.jpg"
+                                alt="Restaurant">
+
+                            <span class="discount">20% OFF</span>
+
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-content">
+
+                            <div class="restaurant-title">
+
+                                <h3>KFC Pakistan</h3>
+
+                                <span>⭐ 4.9</span>
+
+                            </div>
+
+                            <p class="category">Fast Food • Fried Chicken</p>
+
+                            <div class="restaurant-info">
+
+                                <span>📍 Gulberg</span>
+
+                                <span>🕒 25-30 min</span>
+
+                            </div>
+
+                            <div class="restaurant-footer">
+
+                                <span class="delivery">
+                                    🚚 Free Delivery
+                                </span>
+
+                                <button>Order Now</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Restaurant 2 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="restaurant-card">
+
+                        <div class="restaurant-img">
+
+                            <img src="https://i.pinimg.com/1200x/80/ec/e4/80ece44d20774c68a113f0068071d99d.jpg"
+                                alt="Restaurant">
+
+                            <span class="discount">15% OFF</span>
+
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-content">
+
+                            <div class="restaurant-title">
+
+                                <h3>Domino's Pizza</h3>
+
+                                <span>⭐ 4.8</span>
+
+                            </div>
+
+                            <p class="category">Pizza • Italian</p>
+
+                            <div class="restaurant-info">
+
+                                <span>📍 DHA</span>
+
+                                <span>🕒 30-35 min</span>
+
+                            </div>
+
+                            <div class="restaurant-footer">
+
+                                <span class="delivery">
+                                    🚚 Free Delivery
+                                </span>
+
+                                <button>Order Now</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Restaurant 3 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="restaurant-card">
+
+                        <div class="restaurant-img">
+
+                            <img src="https://i.pinimg.com/736x/a6/b9/21/a6b9210e0381b0f63a53e3af461a844c.jpg"
+                                alt="Restaurant">
+
+                            <span class="discount">25% OFF</span>
+
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-content">
+
+                            <div class="restaurant-title">
+
+                                <h3>McDonald's</h3>
+
+                                <span>⭐ 4.9</span>
+
+                            </div>
+
+                            <p class="category">Burgers • Drinks</p>
+
+                            <div class="restaurant-info">
+
+                                <span>📍 Johar Town</span>
+
+                                <span>🕒 20-25 min</span>
+
+                            </div>
+
+                            <div class="restaurant-footer">
+
+                                <span class="delivery">
+                                    🚚 Free Delivery
+                                </span>
+
+                                <button>Order Now</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Restaurant 4 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="restaurant-card">
+
+                        <div class="restaurant-img">
+
+                            <img src="https://i.pinimg.com/736x/56/78/29/567829fb9187ed5632bb5d1e0d85829b.jpg"
+                                alt="Restaurant">
+
+                            <span class="discount">30% OFF</span>
+
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-content">
+
+                            <div class="restaurant-title">
+
+                                <h3>Howdy</h3>
+
+                                <span>⭐ 4.8</span>
+
+                            </div>
+
+                            <p class="category">Steaks • Burgers</p>
+
+                            <div class="restaurant-info">
+
+                                <span>📍 Model Town</span>
+
+                                <span>🕒 35 min</span>
+
+                            </div>
+
+                            <div class="restaurant-footer">
+
+                                <span class="delivery">
+                                    🚚 Free Delivery
+                                </span>
+
+                                <button>Order Now</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Restaurant 5 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="restaurant-card">
+
+                        <div class="restaurant-img">
+
+                            <img src="https://i.pinimg.com/736x/99/f9/dc/99f9dcfbcef935bf31c49d2f2a9b0628.jpg"
+                                alt="Restaurant">
+
+                            <span class="discount">10% OFF</span>
+
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-content">
+
+                            <div class="restaurant-title">
+
+                                <h3>Bundu Khan</h3>
+
+                                <span>⭐ 4.7</span>
+
+                            </div>
+
+                            <p class="category">BBQ • Pakistani</p>
+
+                            <div class="restaurant-info">
+
+                                <span>📍 Faisal Town</span>
+
+                                <span>🕒 30 min</span>
+
+                            </div>
+
+                            <div class="restaurant-footer">
+
+                                <span class="delivery">
+                                    🚚 Free Delivery
+                                </span>
+
+                                <button>Order Now</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Restaurant 6 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="restaurant-card">
+
+                        <div class="restaurant-img">
+
+                            <img src="https://i.pinimg.com/736x/ef/5b/0b/ef5b0bc38806ca5bb83e6dde2d7fbd29.jpg"
+                                alt="Restaurant">
+
+                            <span class="discount">18% OFF</span>
+
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-content">
+
+                            <div class="restaurant-title">
+
+                                <h3>OPTP</h3>
+
+                                <span>⭐ 4.8</span>
+
+                            </div>
+
+                            <p class="category">Fries • Burgers</p>
+
+                            <div class="restaurant-info">
+
+                                <span>📍 Bahria Town</span>
+
+                                <span>🕒 25 min</span>
+
+                            </div>
+
+                            <div class="restaurant-footer">
+
+                                <span class="delivery">
+                                    🚚 Free Delivery
+                                </span>
+
+                                <button>Order Now</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==============================
+     Premium Categories
+===============================-->
+
+    <section class="premium-category">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="category-tag">
+                    🍽 Popular Categories
+                </span>
+
+                <h2>
+                    Choose Your Favourite Food
+                </h2>
+
+                <p>
+                    Freshly cooked meals from top restaurants.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Pizza -->
+
+                <div class="col-lg-3 col-md-6 menu-item">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/736x/d1/c2/a6/d1c2a6715938b4a6405aa55fa18d9cae.jpg">
+
+                        <h3>Pizza</h3>
+
+                        <p>25+ Items</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Burger -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/1200x/0a/03/12/0a0312583b172dcc626050dc4e57d584.jpg">
+
+                        <h3>Burger</h3>
+
+                        <p>18+ Items</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Chicken -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/736x/98/e0/e4/98e0e4a44225f4259750947b78a0a49f.jpg">
+
+                        <h3>Chicken</h3>
+
+                        <p>15+ Items</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Biryani -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/1200x/a5/ea/48/a5ea486d16b2cf36403304c3b8a27142.jpg">
+
+                        <h3>Biryani</h3>
+
+                        <p>20+ Items</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ==============================
+     Premium Categories
+================================ -->
+
+    <section class="premium-category">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="category-tag">
+                    🍽 Popular Categories
+                </span>
+
+                <h2>
+                    Explore Our Special Menu
+                </h2>
+
+                <p>
+                    Freshly prepared delicious dishes made with love.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Chicken Chow Mein -->
+
+                <div class="col-lg-3 col-md-6 menu-item">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/736x/94/d6/ab/94d6ab4f1d4ff1b925af460dd1aece8d.jpg"
+                            alt="Chicken Chow Mein">
+
+                        <h3>Chicken Chow Mein</h3>
+
+                        <p>18+ Items</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Cheese Macaroni -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/736x/8a/d9/49/8ad94988ad062d7a82f50a6869ce406e.jpg"
+                            alt="Cheese Macaroni">
+
+                        <h3>Cheese Macaroni</h3>
+
+                        <p>15+ Items</p>
+
+                    </div>
+
+                </div>
+
+                <!-- BBQ Platter -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/736x/98/07/f0/9807f0a4f54fd3b7f74ed27fcf64fe64.jpg"
+                            alt="BBQ Platter">
+
+                        <h3>BBQ Platter</h3>
+
+                        <p>12+ Items</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Loaded Fries -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="premium-card">
+
+                        <div class="circle"></div>
+
+                        <img src="https://i.pinimg.com/1200x/7a/61/46/7a614691b0b9cedc1074d97a9a9b5653.jpg"
+                            alt="Loaded Fries">
+
+                        <h3>Loaded Fries</h3>
+
+                        <p>20+ Items</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-6 menu-item">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/736x/3e/dc/59/3edc593955d10f2742cecc71e2681fb1.jpg" alt="">
+                <h3>Hot Wings</h3>
+                <p>16+ Items</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/736x/35/db/dd/35dbddf1887bf024d74eb1e30e7ac2f7.jpg" alt="">
+                <h3>Chicken Chargha</h3>
+                <p>12+ Items</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/736x/38/7f/52/387f5273df4794ab7875f99870eec6be.jpg" alt="">
+                <h3>Crispy Fried Chicken</h3>
+                <p>20+ Items</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/1200x/b2/56/41/b2564119fe711fbd20dc3f93c7b02f6a.jpg" alt="">
+                <h3>Chicken Strips</h3>
+                <p>15+ Items</p>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/1200x/48/f4/3d/48f43d01beeed7563b5678dea8ce8604.jpg" alt="">
+                <h3>Chicken Grilled Sandwich</h3>
+                <p>18+ Items</p>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/736x/b5/92/af/b592af6d088cbcdde18bb4f0a3b1a895.jpg" alt="">
+                <h3>Beef Steak</h3>
+                <p>14+ Items</p>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/1200x/91/76/c9/9176c994d50ef7a67608954c2cad3b3c.jpg" alt="">
+                <h3>Onion Rings</h3>
+                <p>17+ Items</p>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="premium-card">
+                <img src="https://i.pinimg.com/1200x/3d/e3/a8/3de3a8b020119f6cfb04d5c66bb1e2f0.jpg" alt="">
+                <h3>Lasagna</h3>
+                <p>13+ Items</p>
+            </div>
+        </div>
+
+    </div>
+    <!--==============================
+      Popular Menu
+===============================-->
+
+    <section class="popular-menu py-5" id="popularMenu">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="category-tag">
+                    🔥 Popular Menu
+                </span>
+
+                <h2 class="popular-title">
+                    Our Best Selling Foods
+                </h2>
+
+                <p class="popular-subtitle">
+                    Freshly prepared delicious meals made with love.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+
+                <div class="col-lg-3 col-md-6 menu-item" data-category="pizza">
+                    <div class="menu-card">
+
+                        <span class="fav">❤</span>
+
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600" alt="Pizza">
+
+                        <h4>Chicken Pizza</h4>
+
+                        <div class="rating">
+                            ⭐⭐⭐⭐⭐
+                            <span>4.9</span>
+                        </div>
+
+                        <div class="price">
+                            Rs.899
+                        </div>
+
+                        <button class="add-cart" data-name="Chicken Pizza" data-price="899">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="col-lg-3 col-md-6 menu-item" data-category="burger">
+                    <div class="menu-card">
+
+                        <span class="fav">❤</span>
+
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="Burger">
+
+                        <h4>Zinger Burger</h4>
+
+                        <div class="rating">
+                            ⭐⭐⭐⭐⭐
+                            <span>4.8</span>
+                        </div>
+
+                        <div class="price">
+                            Rs.499
+                        </div>
+
+                        <button class="add-cart" data-name="Zinger Burger" data-price="499">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Broast">
+                    <div class="menu-card">
+
+                        <span class="fav">❤</span>
+
+                        <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600" alt="Broast">
+
+                        <h4>Chicken Broast</h4>
+
+                        <div class="rating">
+                            ⭐⭐⭐⭐⭐
+                            <span>4.9</span>
+                        </div>
+
+                        <div class="price">
+                            Rs.699
+                        </div>
+
+                        <button class="add-cart" data-name="Chicken Broast" data-price="699">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Biryani">
+                    <div class="menu-card">
+
+                        <span class="fav">❤</span>
+
+                        <img src="https://images.unsplash.com/photo-1701579231349-d7459c40919d?w=600" alt="Biryani">
+
+                        <h4>Special Biryani</h4>
+
+                        <div class="rating">
+                            ⭐⭐⭐⭐⭐
+                            <span>4.9</span>
+                        </div>
+
+                        <div class="price">
+                            Rs.550
+                        </div>
+
+                        <button class="add-cart" data-name="Special Biryani" data-price="550">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Pasta">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=500" class="menu-img">
+                        <h3>Chicken Alfredo Pasta</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.9</span></div>
+                        <h2>Rs.699</h2>
+                        <button class="add-cart" data-name="Chicken Alfredo Pasta" data-price="699">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Shawarma">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://i.pinimg.com/736x/51/b5/2f/51b52f3efb1c3928613573e00c1d0659.jpg"
+                            class="menu-img">
+                        <h3>Chicken Shawarma</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.8</span></div>
+                        <h2>Rs.399</h2>
+                        <button class="add-cart" data-name="Chicken Shawarma" data-price="399">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Beef">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1562967914-608f82629710?w=500" class="menu-img">
+                        <h3>Beef Steak</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.9</span></div>
+                        <h2>Rs.999</h2>
+                        <button class="add-cart" data-name="Beef Steak" data-price="999">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category=" Wrap">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://i.pinimg.com/1200x/e1/3a/78/e13a78344876feff2f1436d2c9f8085b.jpg"
+                            class="menu-img">
+                        <h3>Chicken Wrap</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.7</span></div>
+                        <h2>Rs.450</h2>
+                        <button class="add-cart" data-name="Chicken Wrap" data-price="450">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Burger">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" class="menu-img">
+                        <h3>Double Beef Burger</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.9</span></div>
+                        <h2>Rs.799</h2>
+                        <button class="add-cart" data-name="Double Beef Burger" data-price="799">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Pizza">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" class="menu-img">
+                        <h3>Pepperoni Pizza</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.9</span></div>
+                        <h2>Rs.1099</h2>
+                        <button class="add-cart" data-name="Pepperoni Pizza" data-price="1099">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Loaded Nachos">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?w=500" class="menu-img">
+                        <h3>Loaded Nachos</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.8</span></div>
+                        <h2>Rs.499</h2>
+                        <button class="add-cart" data-name="Loaded Nachos" data-price="499">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Chicken">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=500" class="menu-img">
+                        <h3>Grilled Chicken</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.9</span></div>
+                        <h2>Rs.850</h2>
+                        <button class="add-cart" data-name="Grilled Chicken" data-price="850">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Sandwich">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500" class="menu-img">
+                        <h3>Chicken Sandwich</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.8</span></div>
+                        <h2>Rs.499</h2>
+                        <button class="add-cart" data-name="Chicken Sandwich" data-price="499">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Cheesy Lasagna">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500" class="menu-img">
+                        <h3>Cheesy Lasagna</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.9</span></div>
+                        <h2>Rs.899</h2>
+                        <button class="add-cart" data-name="Cheesy Lasagna" data-price="899">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 11 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Chicken">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://i.pinimg.com/1200x/cb/69/ef/cb69efc23822d87a0d07161a1758ad92.jpg"
+                            class="menu-img">
+                        <h3>Chicken Quesadilla</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.8</span></div>
+                        <h2>Rs.650</h2>
+                        <button class="add-cart" data-name="Chicken Quesadilla" data-price="650">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 12 -->
+                <div class="col-lg-3 col-md-6 menu-item" data-category="Chicken">
+                    <div class="menu-card">
+                        <span class="fav">❤</span>
+                        <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=500" class="menu-img">
+                        <h3>Peri Peri Chicken</h3>
+                        <div class="rating">⭐⭐⭐⭐⭐ <span>4.9</span></div>
+                        <h2>Rs.750</h2>
+                        <button class="add-cart" data-name="Peri Peri Chicken" data-price="750">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= WHY CHOOSE US ================= -->
+
+    <section class="why-us">
+
+        <div class="section-title">
+
+            <span>💜 Why Choose Us</span>
+
+            <h2>Why People Love Delixa</h2>
+
+            <p>
+                Fresh food, lightning fast delivery and premium customer service.
+            </p>
+
+        </div>
+
+        <div class="why-container">
+
+            <!-- Card 1 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">🚚</div>
+
+                <h3>Fast Delivery</h3>
+
+                <p>Get your favourite meals delivered within 30 minutes.</p>
+
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">🍔</div>
+
+                <h3>Fresh Food</h3>
+
+                <p>Prepared fresh after every order using quality ingredients.</p>
+
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">⭐</div>
+
+                <h3>Best Quality</h3>
+
+                <p>Premium ingredients with unforgettable taste and freshness.</p>
+
+            </div>
+
+            <!-- Card 4 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">💳</div>
+
+                <h3>Easy Payment</h3>
+
+                <p>Cash, Card and Online Payments are available anytime.</p>
+
+            </div>
+
+            <!-- Card 5 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">👨‍🍳</div>
+
+                <h3>Expert Chefs</h3>
+
+                <p>Our professional chefs cook every meal with passion.</p>
+
+            </div>
+
+            <!-- Card 6 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">🛡️</div>
+
+                <h3>Hygiene First</h3>
+
+                <p>We maintain the highest standards of cleanliness and safety.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==============================
+      PREMIUM COUNTER SECTION
+===============================-->
+
+    <section class="counter-section">
+
+        <div class="container">
+
+            <div class="counter-title">
+
+                <span>📈 Our Success</span>
+
+                <h2>Trusted By Thousands Of Food Lovers</h2>
+
+                <p>
+                    We serve delicious meals with quality, speed and customer satisfaction.
+                </p>
+
+            </div>
+
+            <div class="counter-wrapper">
+
+                <!-- Card 1 -->
+                <div class="counter-card">
+
+                    <div class="counter-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <h2><span class="counter" data-target="5000">0</span>+</h2>
+
+                    <h4>Happy Customers</h4>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div class="counter-card">
+
+                    <div class="counter-icon">
+                        <i class="fa-solid fa-burger"></i>
+                    </div>
+
+                    <h2><span class="counter" data-target="1200">0</span>+</h2>
+
+                    <h4>Daily Orders</h4>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div class="counter-card">
+
+                    <div class="counter-icon">
+                        <i class="fa-solid fa-motorcycle"></i>
+                    </div>
+
+                    <h2><span class="counter" data-target="250">0</span>+</h2>
+
+                    <h4>Delivery Riders</h4>
+
+                </div>
+
+                <!-- Card 4 -->
+                <div class="counter-card">
+
+                    <div class="counter-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h2><span class="counter" data-target="99">0</span>%</h2>
+
+                    <h4>Positive Reviews</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--=====================================
+        Special Offers Section
+======================================-->
+
+    <section class="offers-section py-5" id="offers">
+
+        <div class="container">
+
+            <div class="offer-box">
+
+                <div class="offer-text">
+
+                    <span class="offer-tag">
+                        🔥 Limited Time Offer
+                    </span>
+
+                    <h2>
+                        Get <span>50% OFF</span><br>
+                        On Your First Order
+                    </h2>
+
+                    <p>
+                        Enjoy delicious meals with free delivery and exciting discounts.
+                        Offer valid for a limited time only.
+                    </p>
+
+                    <button class="offer-btn">
+                        Order Now
+                    </button>
+
+                </div>
+
+                <div class="offer-image">
+
+                    <img src="images/32f24f40-54fc-4586-b657-2e0356a858fa.png" alt="Burger">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="offer-tag">🔥 Special Offers</span>
+
+                <h2 class="offer-title">Exclusive Deals For You</h2>
+
+                <p class="offer-subtitle">
+                    Save more with our exciting food deals and discounts.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card">
+                        <span class="discount-badge">50% OFF</span>
+
+                        <h3>🍕 Pizza Deal</h3>
+
+                        <p>Buy 1 Pizza & Get 1 Free</p>
+
+                        <h5>Code : PIZZA50</h5>
+
+                        <button class="offer-btn">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card">
+                        <span class="discount-badge">30% OFF</span>
+
+                        <h3>🍔 Burger Deal</h3>
+
+                        <p>Get Flat 30% Discount</p>
+
+                        <h5>Code : BURGER30</h5>
+
+                        <button class="offer-btn">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card">
+                        <span class="discount-badge">FREE</span>
+
+                        <h3>🍗 Family Deal</h3>
+
+                        <p>Free Delivery + Rs.300 OFF</p>
+
+                        <h5>Code : FAMILY300</h5>
+
+                        <button class="offer-btn">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--=====================================
+       PREMIUM TESTIMONIAL SECTION
+======================================-->
+
+    <section class="testimonial-section" id="reviews">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>💬 Testimonials</span>
+
+                <h2>What Our Customers Say</h2>
+
+                <p>
+                    Thousands of food lovers trust Delixa every day.
+                </p>
+
+            </div>
+
+            <div class="swiper testimonialSwiper">
+
+                <div class="swiper-wrapper">
+
+                    <!-- Review 1 -->
+
+                    <div class="swiper-slide">
+
+                        <div class="testimonial-card">
+
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+
+                            <h3>Ali Ahmed</h3>
+
+                            <span>Food Blogger</span>
+
+                            <div class="stars">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+
+                            <p>
+                                Delicious food, super fast delivery and amazing customer support.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Review 2 -->
+
+                    <div class="swiper-slide">
+
+                        <div class="testimonial-card">
+
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+
+                            <h3>Sarah Khan</h3>
+
+                            <span>Customer</span>
+
+                            <div class="stars">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+
+                            <p>
+                                Best food delivery service. Everything arrived fresh and hot.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Review 3 -->
+
+                    <div class="swiper-slide">
+
+                        <div class="testimonial-card">
+
+                            <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="">
+
+                            <h3>Umer Ali</h3>
+
+                            <span>Regular Customer</span>
+
+                            <div class="stars">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+
+                            <p>
+                                Premium quality food with affordable prices. Highly recommended.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Review 4 -->
+
+                    <div class="swiper-slide">
+
+                        <div class="testimonial-card">
+
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="">
+
+                            <h3>Ayesha Noor</h3>
+
+                            <span>Chef</span>
+
+                            <div class="stars">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+
+                            <p>
+                                Amazing presentation, delicious taste and very professional service.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Review 5 -->
+
+                    <div class="swiper-slide">
+
+                        <div class="testimonial-card">
+
+                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="">
+
+                            <h3>Zain Hassan</h3>
+
+                            <span>Food Critic</span>
+
+                            <div class="stars">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+
+                            <p>
+                                One of the best food ordering experiences I've had.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Swiper Controls -->
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-next"></div>
+
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--=========================================
+        PREMIUM CONTACT SECTION
+==========================================-->
+
+    <section class="contact-section" id="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>📞 Contact Us</span>
+
+                <h2>Let's Talk With Delixa</h2>
+
+                <p>
+                    Have a question, suggestion or want to place a special order?
+                    We'd love to hear from you.
+                </p>
+
+            </div>
+
+            <div class="contact-wrapper">
+
+                <!-- Left Side -->
+
+                <div class="contact-info">
+
+                    <div class="info-card">
+
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>Address</h4>
+
+                            <p>Lahore, Punjab, Pakistan</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>Phone</h4>
+
+                            <p>+92 371 9158295</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>Email</h4>
+
+                            <p>info@delixa.com</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <div class="icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>Opening Hours</h4>
+
+                            <p>Mon - Sun : 09:00 AM - 11:00 PM</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+
+                <div class="contact-form">
+
+                    <form>
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-4">
+
+                                <input type="text" class="form-control" placeholder="Your Name">
+
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+
+                                <input type="email" class="form-control" placeholder="Your Email">
+
+                            </div>
+
+                        </div>
+
+                        <input type="text" class="form-control mb-4" placeholder="Subject">
+
+                        <textarea class="form-control mb-4" rows="6" placeholder="Write Your Message"></textarea>
+
+                        <button class="contact-btn">
+
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- Google Map -->
+
+            <div class="contact-map">
+
+                <iframe src="https://www.google.com/maps?q=Lahore,Pakistan&output=embed" loading="lazy" allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==================================
+        SHOPPING CART
+===================================-->
+
+    <div class="cart-sidebar" id="cartSidebar">
+
+        <div class="cart-header">
+
+            <h3>Your Cart</h3>
+
+            <button id="closeCart">
+
+                <i class="fas fa-times"></i>
+
+            </button>
+
+        </div>
+
+        <div class="cart-items" id="cartItems">
+
+            <p class="empty-cart">
+
+                Your cart is empty.
+
+            </p>
+
+        </div>
+
+        <div class="cart-footer">
+
+            <h4>
+
+                Total :
+
+                <span id="cartTotal">
+
+                    Rs.0
+
+                </span>
+
+            </h4>
+
+            <button class="checkout-btn">
+
+                Checkout
+
+            </button>
+
+        </div>
+
+    </div>
+    <!-- ===========================
+        CART SIDEBAR
+============================ -->
+
+    <div class="cart-sidebar" <div class="cart-header">
+
+        <h3>Your Cart</h3>
+
+        <button id="closeCart">&times;</button>
+
+    </div>
+
+    <div id="cartItems">
+
+        <p class="empty-cart">
+            Your cart is empty.
+        </p>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <h4>
+
+            Total :
+            <span id="cartTotal">Rs.0</span>
+
+        </h4>
+
+        <a href="checkout.html" class="checkout-btn">
+            Checkout
+        </a>
+    </div>
+
+    </div>
+    <!--=====================================
+            PREMIUM FOOTER
+======================================-->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row gy-5">
+
+                <!-- Column 1 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="footer-logo">
+
+                        <h2>🍔 Delixa</h2>
+
+                        <p>
+                            Delicious food delivered fast to your doorstep.
+                            Fresh meals, premium quality and lightning-fast delivery
+                            every single day.
+                        </p>
+
+                        <div class="footer-social">
+
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Column 2 -->
+
+                <div class="col-lg-2 col-md-6">
+
+                    <h4>Quick Links</h4>
+
+                    <ul>
+
+                        <li><a href="#">Home</a></li>
+
+                        <li><a href="#">Restaurants</a></li>
+
+                        <li><a href="#">Menu</a></li>
+
+                        <li><a href="#">Offers</a></li>
+
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Column 3 -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4>Popular Menu</h4>
+
+                    <ul>
+
+                        <li><a href="#">Pizza</a></li>
+
+                        <li><a href="#">Burger</a></li>
+
+                        <li><a href="#">Biryani</a></li>
+
+                        <li><a href="#">Chicken Broast</a></li>
+
+                        <li><a href="#">Pasta</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Column 4 -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4>Newsletter</h4>
+
+                    <p>
+                        Subscribe and receive our latest offers & delicious updates.
+                    </p>
+
+                    <form class="newsletter">
+
+                        <input type="email" placeholder="Enter your email" required>
+
+                        <button type="submit">
+
+                            Subscribe
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    © 2026 Delixa. All Rights Reserved.
+
+                </p>
+
+                <a href="#" class="back-top">
+
+                    ↑ Back to Top
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--=====================================
+        LOGIN / SIGNUP MODAL
+======================================-->
+
+    <div class="modal fade" id="authModal" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content auth-modal">
+
+                <button type="button" class="btn-close custom-close" data-bs-dismiss="modal">
+                </button>
+
+                <div class="modal-body">
+
+                    <!-- LOGIN FORM -->
+
+                    <div id="loginForm">
+
+                        <h2>Welcome Back 👋</h2>
+
+                        <p class="auth-subtitle">
+                            Login to continue your delicious journey.
+                        </p>
+
+                        <form id="loginFormData">
+
+                            <div class="mb-3">
+
+                                <input type="email" class="form-control auth-input" id="loginEmail"
+                                    placeholder="Email Address" required>
+
+                            </div>
+
+                            <div class="mb-3 password-box">
+
+                                <input type="password" class="form-control auth-input" id="loginPassword"
+                                    placeholder="Password" required>
+
+                                <span class="toggle-password" id="toggleLoginPassword">
+
+                                    <i class="fas fa-eye"></i>
+
+                                </span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between mb-3">
+
+                                <label>
+
+                                    <input type="checkbox">
+
+                                    Remember Me
+
+                                </label>
+
+                                <a href="#" class="forgot-link">
+
+                                    Forgot Password?
+
+                                </a>
+
+                            </div>
+
+                            <button type="submit" class="auth-btn">
+
+                                Login
+
+                            </button>
+
+                        </form>
+
+                        <div class="auth-divider">
+
+                            OR
+
+                        </div>
+
+                        <p class="switch-text">
+
+                            Don't have an account?
+
+                            <a href="#" id="showSignup">
+
+                                Create Account
+
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                    <!-- SIGNUP FORM -->
+
+                    <div id="signupForm" style="display:none;">
+
+                        <h2>Create Account 🚀</h2>
+
+                        <p class="auth-subtitle">
+
+                            Join Delixa and order your favourite food.
+
+                        </p>
+
+                        <form id="signupFormData">
+
+                            <div class="mb-3">
+
+                                <input type="text" class="form-control auth-input" id="signupName"
+                                    placeholder="Full Name" required>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input type="email" class="form-control auth-input" id="signupEmail"
+                                    placeholder="Email Address" required>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input type="tel" class="form-control auth-input" id="signupPhone"
+                                    placeholder="Phone Number" required>
+
+                            </div>
+
+                            <div class="mb-3 password-box">
+
+                                <input type="password" class="form-control auth-input" id="signupPassword"
+                                    placeholder="Password" required>
+
+                                <span class="toggle-password" id="toggleSignupPassword">
+
+                                    <i class="fas fa-eye"></i>
+
+                                </span>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input type="password" class="form-control auth-input" id="confirmPassword"
+                                    placeholder="Confirm Password" required>
+
+                            </div>
+
+                            <button type="submit" class="auth-btn">
+
+                                Create Account
+
+                            </button>
+
+                        </form>
+
+                        <div class="auth-divider">
+
+                            OR
+
+                        </div>
+
+                        <p class="switch-text">
+
+                            Already have an account?
+
+                            <a href="#" id="showLogin">
+
+                                Login Here
+
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
